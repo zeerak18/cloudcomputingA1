@@ -1,0 +1,64 @@
+html {
+	margin: 0px;
+	padding: 0px;
+  text-align: center;
+  padding-top: 30px;
+	background: url('images/background3.png');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+p {
+	font-style: oblique;
+	color: white;
+  width: 70px;
+	position: absolute;
+  top: 8px;
+  left: 16px;
+  font-size: 18px;
+  border: 3px solid;
+}
+
+h1 {
+	color: white;
+	text-shadow: 2px 2px 8px #FF0000;
+
+}
+
+h3 {
+	color: white;
+	text-shadow: 2px 2px 8px #FF0000;
+}
+
+#alljokes {
+
+  background-color: white;
+  text-align: center;
+  opacity: 0.4;
+
+}
+
+input[type=text] {
+  width: 30%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  border: 2px solid black;
+  border-radius: 5px;
+
+}
+
+input[type=submit],a {
+  background-color: #808080;
+  border: none;
+  color: white;
+  padding: 16px 32px;
+  text-align: center;
+  font-size: 16px;
+  margin: 4px 2px;
+  opacity: 0.6;
+  display: inline-block;
+  text-decoration: none;
+  cursor: pointer;
+  border-radius: 5px;
+}
